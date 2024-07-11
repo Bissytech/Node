@@ -110,9 +110,6 @@ app.post("/signin", async (req, res)=>{
        
     // }else{console.log("user not found, please sign up")};
 })
-
-
-
 // create function to start our node application
 const port = 8006
 app.listen(port, ()=>{
